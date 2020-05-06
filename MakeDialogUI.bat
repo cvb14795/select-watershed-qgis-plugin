@@ -1,0 +1,1 @@
+pyuic5 TestPlugin_dialog_base.ui -o ui_TestPlugin_dialog_base.py
