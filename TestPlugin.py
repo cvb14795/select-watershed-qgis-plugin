@@ -377,7 +377,7 @@ class TestPlugin:
             self.dlg.progressBar.setFormat("計算中... 進度: %.1f %%" % 100.0)
             end = time() - start
             print("程式執行耗時： {:.2f} 秒".format(end))
-            self.canvas.zoomToSelected()
+            # self.canvas.zoomToSelected()
             QMessageBox.information(self.dlg, "提示", "計算完畢，請確認選取結果!\n如有錯誤請點擊「打開/關閉修改工具」，移除不要的圖徵\n"
                                                  "待確認完畢後，點擊「儲存選取結果」將選取之集水區儲存為ShapeFile檔!")
             ids = []
